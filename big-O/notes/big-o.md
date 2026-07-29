@@ -29,6 +29,7 @@ When theres two ro more different inputs, the Big O adds, i mean, for input n, i
 
 In this case, if we have a nested loop for two different inputs we multiply `O(n * m)`.
 ### 4. Drop non dominants
+
 We only keep the most important (time consuming) notation.  
 For example we have `O(n + n^2)` in this case the most time consuming notation is `O(n^2)`, so we drop `O(n)` and only keep `O(n)`.
 
@@ -37,3 +38,7 @@ Every time the number of elements increase it multiplies for itself to get the n
 For example, we have a nested loop for an array of three elememts instead of doing 3 operations, we do 9 operations, for 4 elements we do 16 and so.  
 Cause we have `O(n * n) -> O(n^2)`.  
 It is pretty slow. 
+
+## O(n!) -> Factorial time
+It means that we're adding a nested loops for every element that you are iterating over.
+**The worst \- Most expensive**.
