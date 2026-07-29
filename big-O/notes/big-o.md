@@ -42,3 +42,19 @@ It is pretty slow.
 ## O(n!) -> Factorial time
 It means that we're adding a nested loops for every element that you are iterating over.
 **The worst \- Most expensive**.
+
+# Space complexity
+How much memory is being used.
+- **Heap** is usually where we store variables that we assign values to.
+- **Stack** is usually where we keep track of our function calls.  
+
+>**Important**
+- We are talking about additional space. 
+- So we don't include space taken by the inputs.
+- We don't really care about how big the input is.
+
+## What causes space complexity
+ - Variables.
+ - Data structures.
+ - Function call.
+ - Allocations.

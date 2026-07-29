@@ -1,4 +1,5 @@
-# Big Os
+# Cheat sheet
+## Big Os
 - **O(1) *Constant:*** No Loops.    
 - **O(log(n)) *Logarithmic:*** Usually searching algorithms have log(n) if they are sorted (Binary search) (not on hash maps though).  
 - **O(n) *Linear:*** for or while loops.  
@@ -25,5 +26,8 @@
     - for nested steps.
 4. Drop non dominant terms.
 
----
-
+## What causes space complexity
+- Variables.
+- Data structures.
+- Function call. 
+- Allocations.
